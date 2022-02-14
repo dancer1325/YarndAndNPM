@@ -1,0 +1,12 @@
+{
+    "name": "yarn",
+    "version": "1.0.0",
+    "description": "yarn test",
+    "main": "index.js",
+    "repository": "https://github.com/dancer1325/YarndAndNPM.git",
+    "author": "dancer1325 <alfredotic0809@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    }
+}
