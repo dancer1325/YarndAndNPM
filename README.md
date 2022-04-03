@@ -9,8 +9,10 @@
   * It's not working properly, since it just return the yarn version
 * `yarn upgrade`
   * Update dependency version. Example: 'yarn upgrade lodash'
-* `yarn list`
-  * List all the dependencies
+* `npm list`
+  * List all the first dependencies
+  * `npm list NameOfADependency`
+   * Show the dependency tree of NameOfADependency   
 * `yarn remove`
   * Remove a dependency. Example: 'yarn remove lodash'
   * Any kind of dependency can be removed
