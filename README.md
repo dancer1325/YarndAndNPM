@@ -8,7 +8,7 @@
 * `yarn outdated`
   * It's not working properly, since it just return the yarn version
 * `yarn upgrade`
-  * Update dependency version. Example: 'yarn upgrade lodash'
+  * Update dependency version. Example: `yarn upgrade lodash`
 * `npm list`
   * List all the first dependencies
   * `npm list NameOfADependency`
