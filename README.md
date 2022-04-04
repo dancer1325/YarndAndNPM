@@ -4,7 +4,7 @@
 * `yarn create`
   * Start the project based on starters
 * `yarn add`
-  * Add a dependency. Example: 'yarn add lodash'
+  * Add a dependency. Example: <code>yarn add lodash</code>
 * `yarn outdated`
   * It's not working properly, since it just return the yarn version
 * `yarn upgrade`
