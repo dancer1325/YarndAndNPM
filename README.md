@@ -42,4 +42,13 @@
         * Update all packages to 'wanted' version specified in `npm outdated`
       * `npm update react`
         * Update react dependency to 'wanted' version specified in `npm outdated` 
-      * 
+  * `npm uninstall [Scope / NameOfTheDependency] [Options]`
+    * [Options]
+      * If it's not indicated ⟶
+        * dependency will be deleted in 'node_modules'
+        * package.json will be updated
+      * '--no-save'
+        * dependency will be deleted in 'node_modules'
+        * package.json will ⚠️  NOT ⚠️ be updated
+        * uses
+          * testing
