@@ -28,7 +28,18 @@
   * `npm list`
     * List all the first dependencies
     * `npm list NameOfADependency`
-      * Show the dependency tree of NameOfADependency 
- 
-
-
+      * Show the dependency tree of NameOfADependency
+  * `npm outdated`
+    * Based on the package.json's placeholders ⟶ it gives to us the dependencies which can be updated
+  * `npm update [<PackageName>] [--dev]`
+    * Update a PackageName
+      * Just the one's specified at top-level in packages.json, not inherited one's
+      * to the 'wanted' version
+        * If you want to update to a specific version ⟶ use `npm install ...@SpecifiedVersion` 
+    * Stage / type of installation can be specified
+    * Examples
+      * `npm update`
+        * Update all packages to 'wanted' version specified in `npm outdated`
+      * `npm update react`
+        * Update react dependency to 'wanted' version specified in `npm outdated` 
+      * 
