@@ -52,3 +52,23 @@
         * package.json will ⚠️  NOT ⚠️ be updated
         * uses
           * testing
+  * `npm adduser [--registr=url][--scope=ScopeOfThePackage][--always-auth]`
+    * Add a user in the npm's registry used in order to identify us
+  * `npm login` 
+    * Identify us in the npm's registry
+  * `npm version`
+    * Increase the package's version
+  * npm publish [Options]
+    * 'private' attribute in 'package.json'
+      * if it's true ⟶ we can publish it
+      * if it's false ⟶ we can ⚠️  not publish it ⚠️
+    * [Options]
+      * If folder isn't specified ⟶ current folder
+      * tarball
+        * indicate if it's a folder in a .tar extension
+      * tag
+        * version to specify
+      * By default, it will be published in a private organization
+        * premium option
+      * '--access public'
+        * publish it publicly
