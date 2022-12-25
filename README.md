@@ -56,12 +56,18 @@
     * Add a user in the npm's registry used in order to identify us
   * `npm login` 
     * Identify us in the npm's registry
-  * `npm version`
+  * `npm version [major | minor | patch | premajor | preminor | prepatch | prerelease | <newVersion>]`
     * Increase the package's version
+    * Any type of convention versioning can be used:
+        * SemVer
+        * ComVer
+        * ...
+    * Example
+        * `npm version patch`  --> Automatically increase the patch in the package.json
   * npm publish [Options]
     * 'private' attribute in 'package.json'
-      * if it's true ⟶ we can publish it
-      * if it's false ⟶ we can ⚠️  not publish it ⚠️
+      * if it's false / not specified the attribute ⟶ we can publish it
+      * if it's true ⟶ we can ⚠️  not publish it ⚠️
     * [Options]
       * If folder isn't specified ⟶ current folder
       * tarball
