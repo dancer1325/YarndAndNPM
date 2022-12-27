@@ -1,0 +1,20 @@
+{
+  "name": "yarndandnpm",
+  "version": "1.0.0",
+  "description": "* `npm init`    * Start the project * `yarn create`   * Start the project based on starters * `yarn add`   * Add a dependency. Example: 'yarn add lodash' * `yarn outdated`   * It's not working properly, since it just return the yarn version * `yarn upgrade`   * Update dependency version. Example: 'yarn upgrade lodash' * `yarn list`   * List all the dependencies * `yarn remove`   * Remove a dependency. Example: 'yarn remove lodash'   * Any kind of dependency can be removed * `yarn login`   * Add username and email. Password is just required when you push * `yarn logout`   * Remove user added previously * `yarn publish`   * Publish to npm registry. By default it will be private.     * --access privateOrPublic * `yarn version`   * Get either yarn version or version package.json.     * Options to change it       * Manually indicating the version to use       * --patch / --major / ... * `yarn link`    * Link to another package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dancer1325/YarndAndNPM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dancer1325/YarndAndNPM/issues"
+  },
+  "homepage": "https://github.com/dancer1325/YarndAndNPM#readme"
+}
