@@ -78,3 +78,5 @@
         * premium option
       * '--access public'
         * publish it publicly
+  * `npm link`
+    * Create symbolic links between packages
