@@ -80,3 +80,9 @@
         * publish it publicly
   * `npm link`
     * Create symbolic links between packages
+  * Shortcuts
+    * Unnecessary to type "run"
+        * Example: `npm test` === `npm run test`
+    * Use just the first letter
+        * Example: `npm t` === `npm run test`
+
