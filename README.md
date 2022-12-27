@@ -64,7 +64,7 @@
         * ...
     * Example
         * `npm version patch`  --> Automatically increase the patch in the package.json
-  * npm publish [Options]
+  * `npm publish [Options]`
     * 'private' attribute in 'package.json'
       * if it's false / not specified the attribute ⟶ we can publish it
       * if it's true ⟶ we can ⚠️  not publish it ⚠️
