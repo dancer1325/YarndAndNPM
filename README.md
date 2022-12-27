@@ -80,6 +80,17 @@
         * publish it publicly
   * `npm link`
     * Create symbolic links between packages
+  * `npm repo`
+    * Guess the package's repository URL, and open it in the browser
+  * `npm pack`
+    * Create a tarball (.tgz)
+  * `npm cache`
+    * Place the packages in a folder, to avoid unnecessary calls/procedures
+  * `npm audit`
+    * Check the vulnerability of some of our dependencies
+    * `npm audit fix`
+        * Try to download the patches automatically
+        * Adjust the package-lock.json
   * Shortcuts
     * Unnecessary to type "run"
         * Example: `npm test` === `npm run test`
