@@ -28,6 +28,11 @@
       * --patch / --major / ...
 * `yarn link` 
   * Link to another package
-
-
+* `yarn workspaces`
+  * Manage several packages via centralized way
+* `yarn import`
+  * From "package-lock.json" — is generated ⟶ "yarn.lock"
+* `yarn audit`
+  * List the vulnerabilities of the project
+    * There is no `... fix` (as in npm) to fix the vulnerabilities
 
